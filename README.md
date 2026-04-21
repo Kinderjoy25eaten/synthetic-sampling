@@ -34,4 +34,4 @@ instead of relying on one metric, we hit the synthetic data with three different
 1. clone the repo.
 2. put `diabetes_binary_health_indicators_BRFSS2015.csv` into `data/raw/`.
 3. install dependencies: `pip install -r requirements.txt`
-4. open the notebook and run it top to bottom. (warning: running the full 100 iterations takes about 1-1.5 hours depending on your cpu).
+4. open the notebook and run it top to bottom. (warning: running the full 10 iterations takes about 1-1.5 hours depending on your cpu).
