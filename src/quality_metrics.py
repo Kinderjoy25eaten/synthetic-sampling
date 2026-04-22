@@ -1,4 +1,4 @@
-def get_adv_stats(d_real, d_fake, tgt='BMI'):
+def compute_advanced_metrics(d_real, d_fake, tgt='BMI'):
     import pandas
     import sklearn.model_selection
     import sklearn.linear_model
@@ -59,7 +59,7 @@ def get_adv_stats(d_real, d_fake, tgt='BMI'):
     return d, rsmp, fsmp
 
 
-def make_dash(info, r_d, f_d, col_n, location=None):
+def generate_evaluation_dashboard(info, r_d, f_d, col_n, location=None):
     import matplotlib.pyplot as pplt
     import seaborn as sbn
     
